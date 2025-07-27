@@ -43,7 +43,7 @@ This SQL project not only serves as a robust data management system but also as 
 
 Queries
 
- Database and table creation
+ Database creation
 ``` sql
 CREATE DATABASE Sql_project_1;
 ```
@@ -80,7 +80,7 @@ ingredients    VARCHAR(100)
 );
 ```
 
-Pizza Table creation
+Pizzas Table creation
 ```sql
 CREATE TABLE sql_project_1.Dominos_pizza_orders_pizzas
 (
@@ -92,24 +92,7 @@ CREATE TABLE sql_project_1.Dominos_pizza_orders_pizzas
 );
 ```
 
-/*
-Basic:
-Retrieve the total number of orders placed.
-Calculate the total revenue generated from pizza sales.
-Identify the highest-priced pizza.
-Identify the most common pizza size ordered.
-
-
-Intermediate:
-Join the necessary tables to find the total quantity of each pizza category ordered.
-Determine the distribution of orders by hour of the day.
-Join relevant tables to find the category-wise distribution of pizzas.
-Determine the top 3 most ordered pizza types based on revenue.
-
-Advanced:
-Analyze the cumulative revenue generated over time.
-
-*/
+Queries 
 
  Retrieve the total number of orders placed.
  ```sql
